@@ -1,0 +1,11 @@
+dae4c2e694a51fb3b1f34788cc1c88ec *DESCRIPTION
+9ba2bb89e20406a607faa1fba4f53520 *NAMESPACE
+2d7de2db48fb367cefd18f814ea12b85 *R/cmtest.R
+dd79477568b5c9fa492b13b79d3633bb *build/partial.rdb
+0cf2c727638782dd7d872c4bbd4795ef *build/vignette.rds
+620370a17cf93a5bf92c347877ae4622 *inst/REFERENCES.bib
+9faf9230f9db9a842ed549700153634a *inst/doc/cmtest.R
+d7b3fa89cc4d87d2554832074224401f *inst/doc/cmtest.Rmd
+e82e801b609450c033c79f3e29e690fa *inst/doc/cmtest.html
+1b0cf846f32828189f1f05bdd6932d51 *man/cmtest.Rd
+d7b3fa89cc4d87d2554832074224401f *vignettes/cmtest.Rmd
