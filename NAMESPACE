@@ -3,6 +3,7 @@
 S3method(cmtest,censReg)
 S3method(cmtest,glm)
 S3method(cmtest,tobit)
+S3method(cmtest,tobit1)
 export(cmtest)
 importFrom(Rdpack,reprompt)
 importFrom(stats,as.formula)

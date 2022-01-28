@@ -3,6 +3,7 @@
 \name{cmtest}
 \alias{cmtest}
 \alias{cmtest.tobit}
+\alias{cmtest.tobit1}
 \alias{cmtest.censReg}
 \alias{cmtest.glm}
 \title{Conditional moments test}
@@ -16,6 +17,14 @@ cmtest(
 )
 
 \method{cmtest}{tobit}(
+  x,
+  test = c("normality", "reset", "heterosc", "skewness", "kurtosis"),
+  powers = 2:3,
+  heter_cov = NULL,
+  OPG = FALSE
+)
+
+\method{cmtest}{tobit1}(
   x,
   test = c("normality", "reset", "heterosc", "skewness", "kurtosis"),
   powers = 2:3,

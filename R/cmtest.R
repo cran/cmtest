@@ -81,23 +81,23 @@ cmtest.tobit <- function(x, test = c("normality", "reset", "heterosc",
     result
 }
 
-## #' @rdname cmtest
-## #' @export
-## cmtest.tobit1 <- function(x, test = c("normality", "reset", "heterosc",
-##                                "skewness", "kurtosis"),
-##                          powers = 2:3, heter_cov = NULL, OPG = FALSE){
-##     test <- match.arg(test)
-##     param <- coef(x)
-##     X <- model.matrix(x)
-##     mf <- model.frame(x)
-##     y <- model.response(mf)
-##     result <- cmtest_tobit(param, X, y, mf, test = test,
-##                            powers = powers, heter_cov = heter_cov, OPG = OPG)
-##     .data.name <- paste(deparse(formula(x)))
-##     if (length(.data.name) > 1) .data.name <- paste(.data.name[1], "...")
-##     result$data.name <- .data.name
-##     result
-## }
+#' @rdname cmtest
+#' @export
+cmtest.tobit1 <- function(x, test = c("normality", "reset", "heterosc",
+                               "skewness", "kurtosis"),
+                         powers = 2:3, heter_cov = NULL, OPG = FALSE){
+    test <- match.arg(test)
+    param <- coef(x)
+    X <- model.matrix(x)
+    mf <- model.frame(x)
+    y <- model.response(mf)
+    result <- cmtest_tobit(param, X, y, mf, test = test,
+                           powers = powers, heter_cov = heter_cov, OPG = OPG)
+    .data.name <- paste(deparse(formula(x)))
+    if (length(.data.name) > 1) .data.name <- paste(.data.name[1], "...")
+    result$data.name <- .data.name
+    result
+}
 
 
 #' @rdname cmtest

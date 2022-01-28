@@ -12,7 +12,7 @@ output:
     toc: false
 vignette: >
   %\VignetteEncoding{UTF-8}
-  %\VignetteIndexEntry{zerotrunc: an R package for tobit models}
+  %\VignetteIndexEntry{cmtest:  an R package for conditional moments tests}
   %\VignetteEngine{knitr::rmarkdown}
 ---
 
